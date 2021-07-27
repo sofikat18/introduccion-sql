@@ -8,6 +8,6 @@ HAVING COUNT(titulo) >= 4;
 
 SELECT AVG(id) AS 'Promedio id Ana Sofía' FROM entradas; /* Con este, se saca el promedio */
 SELECT MAX(id) AS 'Maximo id' FROM entradas; /* Este sirve para sacar el valor más alto de una lista */
-SELECT MIN(id) AS 'Maximo id' FROM entradas; /* Este sirve para sacar el valor mínimo de una lista */
+SELECT MIN(id) AS 'Mínimo id' FROM entradas; /* Este sirve para sacar el valor mínimo de una lista */
 SELECT SUM(id) AS 'Suma de ids' FROM entradas; /* Para sumar elementos */
 SELECT AVG(id) AS 'Promedio id' FROM entradas WHERE categoria_id = 1; /* Con este, se saca el promedio de los números cuya categoría es id = 1 */

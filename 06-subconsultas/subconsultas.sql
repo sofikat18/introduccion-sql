@@ -26,7 +26,7 @@ SELECT * FROM categorias WHERE id NOT IN(
   SELECT categoria_id FROM entradas  
 ); 
 
-/* Mostrar usuarios que crearon una entrada en un martes */
+/* Mostrar usuarios que crearon una entrada en un miércoles */
 SELECT * FROM usuarios WHERE id IN(
     SELECT usuario_id FROM entradas WHERE DAYOFWEEK(fecha) = 4
 );
